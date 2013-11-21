@@ -18,7 +18,7 @@
 #define GPIO_H_
 
 #include <support_common.h>
-#include "common.h"
+
 
 //int gpio_port_get_pin_state(int p_port, int p_pin);
 //void gpio_port_init(int p_port, int p_pin, int p_funct, int p_data_dir, int p_state);
