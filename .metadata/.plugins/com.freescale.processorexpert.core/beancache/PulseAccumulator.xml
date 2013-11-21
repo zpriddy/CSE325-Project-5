@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>PulseAccumulator</Name>
+    <Description>Pulse Accumulator</Description>
+    <Author>Processor Expert/RH</Author>
+    <Version>01.190</Version>
+    <Icon>EVCNTR</Icon>
+    <TypesFiles>PE,PulseAccumulator\PulseAccumulator</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <Shortcut>Puls</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Basic beans</Licence>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Category>CPU Internal Peripherals-Timer</Category>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>Timers, measurement, signal and pulse generation, motor controll, real-time-clock</GroupCategory>
+    <BeanLevel>Low</BeanLevel>
+    <BW_NeedUst>1</BW_NeedUst>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

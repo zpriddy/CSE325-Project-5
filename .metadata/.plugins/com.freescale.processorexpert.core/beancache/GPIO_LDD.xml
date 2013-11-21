@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>GPIO_LDD</Name>
+    <Description>LDD General Purpose I/O Component</Description>
+    <Author>Jaroslav Cernoch</Author>
+    <Version>01.123</Version>
+    <Icon>PORT_LDD</Icon>
+    <TypesFiles>PE,GPIO_LDD\GPIO_LDD</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <BW_NeedUst>16</BW_NeedUst>
+    <BW_NeedCns>3</BW_NeedCns>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>Logical Device Drivers-Port I/O</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+    <GroupCategory>I/O, keyboards, LED, interrupts</GroupCategory>
+    <Licence>Basic beans</Licence>
+    <Shortcut>GPIO</Shortcut>
+  </Options>
+</Bean>
+

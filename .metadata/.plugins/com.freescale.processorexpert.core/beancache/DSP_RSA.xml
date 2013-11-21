@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>DSP_RSA</Name>
+    <Description>RSA security algorithm for DSP family</Description>
+    <Author>Processor Expert / ACh</Author>
+    <Version>01.017</Version>
+    <Icon>DSPFNC</Icon>
+    <TypesFiles>PE,DSP_RSA\DSP_RSA</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>Default</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>no</BW_NeedTps>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>SW-Security Library</Category>
+    <GroupCategory>SDK</GroupCategory>
+    <Shortcut>RSA</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Advanced beans;DSP_RSA</Licence>
+    <OneBeanInstance>!yes</OneBeanInstance>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedUst>9</BW_NeedUst>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

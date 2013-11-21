@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>Audio_Codec_CS4218</Name>
+    <Description>16-Bit Stereo Audio Codec</Description>
+    <Author>Processor Expert / PA</Author>
+    <Version>01.041</Version>
+    <Icon>TELEPHONE</Icon>
+    <TypesFiles>PE,Audio_Codec_CS4218\Audio_Codec_CS4218</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Licence>Advanced beans;Audio_Codec_CS4218</Licence>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>CPU External Devices-Audio</Category>
+    <GroupCategory>Audio</GroupCategory>
+    <Shortcut>SAC</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <BW_NeedUst>1</BW_NeedUst>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

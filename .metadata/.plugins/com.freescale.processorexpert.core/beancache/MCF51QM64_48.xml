@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>MCF51QM64_48</Name>
+    <Description>Freescale ColdFire+ family : QM64 in 48 pin LQFP package</Description>
+    <Author>Processor Expert/PC</Author>
+    <Version>01.000</Version>
+    <Icon>CPU_CHIP2</Icon>
+    <TypesFiles>PE,FreescaleKinetis,_Kinetis\*,MCF51QM64_48\*</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>CPUsFull</BW_HelpType>
+    <BW_HelpFiles>CPU,Properties,Methods,Events,"User Types",Used</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Licence>Basic beans</Licence>
+    <BW_NeedUst>8</BW_NeedUst>
+    <BW_NeedCns>14</BW_NeedCns>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>CPU-Freescale-ColdFire-ColdFire+ V1-MCF51QF/QH/QM/QU</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanLevel>High</BeanLevel>
+    <GroupCategory>CPUs</GroupCategory>
+    <PE_SpeedModeList>yes</PE_SpeedModeList>
+  </Options>
+</Bean>
+

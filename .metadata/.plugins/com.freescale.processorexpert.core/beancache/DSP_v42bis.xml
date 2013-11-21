@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>DSP_v42bis</Name>
+    <Description>V.42bis modem services</Description>
+    <Author>Processor Expert / ACh</Author>
+    <Version>01.015</Version>
+    <Icon>DSPFNC</Icon>
+    <TypesFiles>PE,DSP_v42bis\DSP_v42bis</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>Default</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>no</BW_NeedTps>
+    <Licence>Advanced beans;DSP_v42bis</Licence>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>SW-Modem Library</Category>
+    <GroupCategory>SDK</GroupCategory>
+    <Shortcut>Mdm</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <OneBeanInstance>!yes</OneBeanInstance>
+    <BW_NeedUst>15</BW_NeedUst>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

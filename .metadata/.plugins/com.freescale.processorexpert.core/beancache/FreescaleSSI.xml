@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>FreescaleSSI</Name>
+    <Description>Synchronous serial interface</Description>
+    <Author>Processor Expert/SA</Author>
+    <Version>01.039</Version>
+    <Icon>PHONE</Icon>
+    <TypesFiles>PE,FreescaleSSI\FreescaleSSI</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>no</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>CPU Internal Peripherals-Communication</Category>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Advanced beans;FreescaleSSI</Licence>
+    <Shortcut>SSI</Shortcut>
+    <GroupCategory>Communications</GroupCategory>
+    <BW_NeedUst>4</BW_NeedUst>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

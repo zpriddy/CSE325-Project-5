@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>VAD_CNG_DTX</Name>
+    <Description>The Voice Activity Detection, the Comfort Noise Generation and the Discontinuous Transmission function library</Description>
+    <Author>Processor Expert / ACh</Author>
+    <Version>01.014</Version>
+    <Icon>TELEPHONE</Icon>
+    <TypesFiles>PE,VAD_CNG_DTX\VAD_CNG_DTX</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>Default</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>no</BW_NeedTps>
+    <Licence>Advanced beans;VAD_CNG_DTX</Licence>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>SW-Telephony Library</Category>
+    <GroupCategory>SDK</GroupCategory>
+    <Shortcut>VCD</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <BW_NeedUst>9</BW_NeedUst>
+    <BeanLevel>High</BeanLevel>
+    <OneBeanInstance>!yes</OneBeanInstance>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

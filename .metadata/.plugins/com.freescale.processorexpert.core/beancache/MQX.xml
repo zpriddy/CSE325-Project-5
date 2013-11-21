@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>MQX</Name>
+    <Description>MQX Realtime Operating System</Description>
+    <Author>Processor Expert/MV</Author>
+    <Version>01.032</Version>
+    <Icon>OS_LDD</Icon>
+    <TypesFiles>PE,MQX\MQX</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>Default</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>no</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>Operating Systems</Category>
+    <Shortcut>MQX</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Basic beans</Licence>
+    <OperatingSystemId>MQX</OperatingSystemId>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BeanLevel>High</BeanLevel>
+    <GroupCategory>SW algorithms, encoding/decoding</GroupCategory>
+    <BW_NeedCns>0</BW_NeedCns>
+    <OneBeanInstance>Processor Expert RTOS adapter component.</OneBeanInstance>
+  </Options>
+</Bean>
+

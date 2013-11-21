@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>SW_I2C</Name>
+    <Description>SW emulated I2C using two I/O pins.</Description>
+    <Author>Processor Expert/IR</Author>
+    <Version>01.121</Version>
+    <Icon>I2C</Icon>
+    <TypesFiles>PE,SW_I2C\SW_I2C</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <DemoDriver>yes</DemoDriver>
+    <Shortcut>EI2C</Shortcut>
+    <Licence>Basic beans</Licence>
+    <BW_HelpType>BasicPlusUsage</BW_HelpType>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Category>CPU External Devices-Communication</Category>
+    <GroupCategory>Communications</GroupCategory>
+    <BeanStatus>RELEASE</BeanStatus>
+    <BW_HelpFiles>,Properties,Methods,Events,"Typical Usage"</BW_HelpFiles>
+    <GroupCategory>Communications</GroupCategory>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

@@ -1,0 +1,120 @@
+
+
+#>00000400          ___heap_size (linker command file)
+#>00000800          ___stack_size (linker command file)
+#>40000000          ___IPSBAR (linker command file)
+#>20000000          ___RAMBAR (linker command file)
+#>00010000          ___RAMBAR_SIZE (linker command file)
+#>00000000          ___FLASHBAR (linker command file)
+#>00080000          ___FLASHBAR_SIZE (linker command file)
+#>2000FFFC          ___SP_AFTER_RESET (linker command file)
+
+# .userram
+
+# .code
+
+# .vectorram
+
+# .vectors
+  20000500 00000400 .vectortable _vect	(exceptions_c.obj)
+
+# .text
+  20000900 00000008 .text   __initialize_system	(startcf_c.obj)
+  20000908 0000006C .text   __copy_rom_section	(startcf_c.obj)
+  20000974 0000005C .text   __copy_rom_sections_to_ram	(startcf_c.obj)
+  200009D0 0000022A .text   clear_mem	(startcf_c.obj)
+  20000BFA 00000096 .text   _startup	(startcf_c.obj)
+  20000C90 00000020 .text   uc_led_all_off	(uc_led_c.obj)
+  20000CB0 00000020 .text   uc_led_all_on	(uc_led_c.obj)
+  20000CD0 00000062 .text   uc_led_init	(uc_led_c.obj)
+  20000D32 0000001A .text   uc_led_off	(uc_led_c.obj)
+  20000D4C 0000001A .text   uc_led_on	(uc_led_c.obj)
+  20000D66 0000028C .text   uart_channel_init	(uart_c.obj)
+  20000FF2 00000026 .text   uart_channel_enable	(uart_c.obj)
+  20001018 00000030 .text   uart1_isr	(uart_c.obj)
+  20001048 00000024 .text   uart_channel_getchar	(uart_c.obj)
+  2000106C 000000CA .text   uart_callback	(main_c.obj)
+  20001136 00000048 .text   hw_init	(main_c.obj)
+  2000117E 0000001E .text   run	(main_c.obj)
+  2000119C 00000012 .text   main	(main_c.obj)
+  200011B0 000000FA .text   @DummyFn1	(int_s.obj)
+  200011B0 00000000 .text   int_config	(int_s.obj)
+  200011B0 000000FA .text   .text	(int_s.obj)
+  200011F2 00000000 .text   int_inhibit_all	(int_s.obj)
+  2000120E 00000000 .text   int_mask_src	(int_s.obj)
+  20001252 00000000 .text   int_unmask_src	(int_s.obj)
+  20001298 00000000 .text   int_uninhibit_all	(int_s.obj)
+  200012AA 0000026C .text   gpio_port_init	(gpio_c.obj)
+  20001516 00000058 .text   gpio_port_set_pin_state	(gpio_c.obj)
+  2000156E 00000004 .text   TrapHandler_printf	(exceptions_c.obj)
+  20001572 00000200 .text   mcf_exception_handler	(exceptions_c.obj)
+  20001772 00000020 .text   asm_exception_handler	(exceptions_c.obj)
+  20001792 00000008 .text   mcf5xxx_wr_vbr	(exceptions_c.obj)
+  2000179A 00000062 .text   initialize_exceptions	(exceptions_c.obj)
+  200017FC 00000020 .text   pll_init	(TWR-MCF5225X_sysinit_c.obj)
+  2000181C 00000022 .text   scm_init	(TWR-MCF5225X_sysinit_c.obj)
+  2000183E 0000003E .text   __initialize_hardware	(TWR-MCF5225X_sysinit_c.obj)
+  2000187C 0000001C .text   __call_static_initializers	(librt.a cf_staticinitia)
+#>20001898          ___ROM_AT (linker command file)
+#>20001898          ___DATA_ROM (linker command file)
+
+# .data
+#>20005000          ___DATA_RAM (linker command file)
+#>20005000          __exception_table_start__ (linker command file)
+# Exception index
+  20005000 00000000         Exception Table Index	()
+#>20005000          __exception_table_end__ (linker command file)
+#>20005000          ___sinit__ (linker command file)
+# Linker generated symbols
+  20005000 00000004         static initializer	(linker generated)
+#>20005004          __START_DATA (linker command file)
+#>20005004          __END_DATA (linker command file)
+#>20005004          __START_SDATA (linker command file)
+#>20005004          __END_SDATA (linker command file)
+#>20005004          ___DATA_END (linker command file)
+#>20005004          __SDA_BASE (linker command file)
+
+# .bss
+#>20005004          ___BSS_START (linker command file)
+#>20005004          __START_SBSS (linker command file)
+#>20005004          __END_SBSS (linker command file)
+#>20005004          __START_BSS (linker command file)
+  20005004 00000004 .bss    g_uart_callback	(uart_c.obj)
+  20005008 00000004 .bss    count	(main_c.obj)
+  2000500C 00000004 .bss    xfer_end	(main_c.obj)
+  20005010 00000004 .bss    LENGTH	(main_c.obj)
+  20005014 00000004 .bss    flash	(main_c.obj)
+  20005018 00000400 .bss    DATA	(main_c.obj)
+#>20005418          __END_BSS (linker command file)
+#>20005418          ___BSS_END (linker command file)
+
+# .custom
+#>20005418          ___HEAP_START (linker command file)
+#>20005418          ___heap_addr (linker command file)
+#>20005818          ___HEAP_END (linker command file)
+#>20005818          ___SP_END (linker command file)
+#>20006018          ___SP_INIT (linker command file)
+#>20000000          ___VECTOR_RAM (linker command file)
+#>20006018          __SP_INIT (linker command file)
+#>20005818          ___mem_limit (linker command file)
+#>00000010          ___stack_safety (linker command file)
+#>2000189C          _romp_at (linker command file)
+
+# .romp
+#>2000189C          __S_romp (linker command file)
+
+
+# Memory map:
+  v_addr   p_addr   size     name
+  20000000 20000000 00000000 .vectorram vectorram
+  20000500 20000500 00000000 .code      code
+  20000500 20000500 00000400 .vectors   code
+  20000900 20000900 00000F98 .text      code
+  20005000 20005000 00000000 .userram   userram
+  20005000 20001898 00000004 .data      userram
+  20005004 20005004 00000414 .bss       userram
+  20005418 20005418 00000000 .custom    userram
+  20005418 2000189C 00000018 .romp      userram
+
+# Link start time: Thu Nov 21 12:07:47 2013
+# Link end time: Thu Nov 21 12:07:47 2013

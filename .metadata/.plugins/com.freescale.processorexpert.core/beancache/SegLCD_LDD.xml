@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>SegLCD_LDD</Name>
+    <Description>Segment Liquid Crystal Display</Description>
+    <Author>Processor Expert/JR</Author>
+    <Version>01.005</Version>
+    <Icon>LCD_LDD</Icon>
+    <TypesFiles>PE,SegLCD_LDD\SegLCD_LDD</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <BW_NeedUst>19</BW_NeedUst>
+    <BW_NeedCns>2</BW_NeedCns>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>Logical Device Drivers-Display</Category>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Basic beans</Licence>
+    <GroupCategory>Displays, graphics, pictures</GroupCategory>
+    <Shortcut>SegLCD</Shortcut>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+  </Options>
+</Bean>
+

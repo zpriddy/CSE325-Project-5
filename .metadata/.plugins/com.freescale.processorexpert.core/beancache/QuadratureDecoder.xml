@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>QuadratureDecoder</Name>
+    <Description>Quadrature decoder to decode shaft position, revolution count and speed.</Description>
+    <Author>Processor Expert / FL</Author>
+    <Version>01.092</Version>
+    <Icon>Qd</Icon>
+    <TypesFiles>PE,QuadratureDecoder\QuadratureDecoder</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>no</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Licence>Advanced beans;QuadratureDecoder</Licence>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>CPU Internal Peripherals-Measurement</Category>
+    <GroupCategory>Timers, measurement, signal and pulse generation, motor controll, real-time-clock</GroupCategory>
+    <Shortcut>QD</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <ItemSymbolRenamed>device</ItemSymbolRenamed>
+    <ItemSymbolRenamedTo>Tmr</ItemSymbolRenamedTo>
+    <BeanLevel>Low</BeanLevel>
+    <BW_NeedUst>3</BW_NeedUst>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

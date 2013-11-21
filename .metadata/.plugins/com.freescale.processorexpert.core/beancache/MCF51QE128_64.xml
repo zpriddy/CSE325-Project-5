@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>MCF51QE128_64</Name>
+    <Description>Freescale ColdFireV1 family : MCF51QE128 in 64 pin LQFP package</Description>
+    <Author>Processor Expert/PC</Author>
+    <Version>01.010</Version>
+    <Icon>CPU_CHIP2</Icon>
+    <TypesFiles>PE,FreescaleHC</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>CPUsFull</BW_HelpType>
+    <BW_HelpFiles>CPU,Properties,Methods,Events,"User Types",Used</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Licence>Basic beans</Licence>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BW_NeedCns>11</BW_NeedCns>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>CPU-Freescale-ColdFire-ColdFire V1-MCF51QE</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanLevel>High</BeanLevel>
+    <GroupCategory>CPUs</GroupCategory>
+  </Options>
+</Bean>
+

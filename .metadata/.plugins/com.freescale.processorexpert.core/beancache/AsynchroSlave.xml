@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>AsynchroSlave</Name>
+    <Description>Asynchronous serial communication - slave</Description>
+    <Author>Processor Expert/MV</Author>
+    <Version>02.215</Version>
+    <Icon>PHONE</Icon>
+    <TypesFiles>PE,AsynchroSlave\AsynchroSlave</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <Shortcut>ASl</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Advanced beans;AsynchroSlave</Licence>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Category>CPU Internal Peripherals-Communication</Category>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>Communications</GroupCategory>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedUst>2</BW_NeedUst>
+    <BW_NeedCns>2</BW_NeedCns>
+    <ItemSymbolRenamed>WakeupCondHCS12</ItemSymbolRenamed>
+    <ItemSymbolRenamedTo>WakeupCond</ItemSymbolRenamedTo>
+  </Options>
+</Bean>
+

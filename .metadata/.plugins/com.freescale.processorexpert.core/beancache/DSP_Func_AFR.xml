@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>DSP_Func_AFR</Name>
+    <Description>Single-dimensioned arrays of 16-bit and 32-bit fractional values.</Description>
+    <Author>Processor Expert / PA</Author>
+    <Version>01.030</Version>
+    <Icon>DSPFNC</Icon>
+    <TypesFiles>PE,DSP_Func_AFR\DSP_Func_AFR</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>Default</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>no</BW_NeedTps>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>SW-DSP Function &amp; Math Library-Array Function Library</Category>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Advanced beans;DSP_Func_AFR</Licence>
+    <Shortcut>AFR</Shortcut>
+    <GroupCategory>SDK</GroupCategory>
+    <OneBeanInstance>!yes</OneBeanInstance>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedUst>5</BW_NeedUst>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>IntFLASH</Name>
+    <Description>Internal FLASH</Description>
+    <Author>Processor Expert/RH/MP/PK/MVa</Author>
+    <Version>02.380</Version>
+    <Icon>IntFLASH</Icon>
+    <TypesFiles>PE,IntFLASH\IntFLASH</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <Shortcut>IFsh</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Category>CPU Internal Peripherals-Memory</Category>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Licence>Advanced beans;IntFLASH</Licence>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <GroupCategory>Memories</GroupCategory>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedUst>2</BW_NeedUst>
+    <BW_NeedCns>9</BW_NeedCns>
+  </Options>
+</Bean>
+

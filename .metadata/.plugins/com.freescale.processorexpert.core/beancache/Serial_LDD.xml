@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>Serial_LDD</Name>
+    <Description>Asynchronous serial communication</Description>
+    <Author>Processor Expert/MV</Author>
+    <Version>01.156</Version>
+    <Icon>PHONE_LDD</Icon>
+    <TypesFiles>PE,Serial_LDD\Serial_LDD</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <Shortcut>AS</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Basic beans</Licence>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Category>Logical Device Drivers-Communication</Category>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>Communications</GroupCategory>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+    <BW_NeedUst>24</BW_NeedUst>
+    <BW_NeedCns>10</BW_NeedCns>
+    <SharedDriverSupport>yes</SharedDriverSupport>
+  </Options>
+</Bean>
+

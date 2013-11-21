@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>PWMMC</Name>
+    <Description>Pulse width modulation for motor control</Description>
+    <Author>Processor Expert/FL</Author>
+    <Version>01.741</Version>
+    <Icon>SIGNAL</Icon>
+    <TypesFiles>PE,PWMMC\PWMMC</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <Shortcut>PWMC</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Advanced beans;PWMMC</Licence>
+    <BW_HelpType>DefaultPlusUsageAppNote</BW_HelpType>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Category>CPU Internal Peripherals-Timer</Category>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Application Notes","Typical Usage"</BW_HelpFiles>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>Timers, measurement, signal and pulse generation, motor controll, real-time-clock</GroupCategory>
+    <BeanLevel>Low</BeanLevel>
+    <BW_NeedUst>3</BW_NeedUst>
+    <BW_NeedCns>0</BW_NeedCns>
+    <ItemSymbolRenamed>IS1 pin</ItemSymbolRenamed>
+    <ItemSymbolRenamedTo>IS1pin</ItemSymbolRenamedTo>
+  </Options>
+</Bean>
+

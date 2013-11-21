@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>MeasurementEngine</Name>
+    <Description>MeasurementEngine</Description>
+    <Author>Processor Expert/MT</Author>
+    <Version>01.475</Version>
+    <Icon>ME</Icon>
+    <TypesFiles>PE,MeasurementEngine\MeasurementEngine</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <Category>CPU Internal Peripherals-Measurement</Category>
+    <BeanStatus>RELEASE</BeanStatus>
+    <BeanLevel>Low</BeanLevel>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <BW_NeedUst>5</BW_NeedUst>
+    <BW_NeedCns>8</BW_NeedCns>
+    <OneBeanInstance>!yes</OneBeanInstance>
+    <Shortcut>ME</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Basic beans</Licence>
+    <GroupCategory>Converters, sensors</GroupCategory>
+  </Options>
+</Bean>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>DRY_LDD</Name>
+    <Description>DryIce (tamper detect and secure storage)</Description>
+    <Author>Processor Expert/LV</Author>
+    <Version>01.008</Version>
+    <Icon>KEY_LDD</Icon>
+    <TypesFiles>PE,DRY_LDD\DRY_LDD</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Licence>Basic beans</Licence>
+    <Shortcut>DRY</Shortcut>
+    <BW_NeedUst>13</BW_NeedUst>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>Logical Device Drivers-Security</Category>
+    <DemoDriver>yes</DemoDriver>
+    <GroupCategory>Memories</GroupCategory>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+    <BW_NeedCns>24</BW_NeedCns>
+  </Options>
+</Bean>
+

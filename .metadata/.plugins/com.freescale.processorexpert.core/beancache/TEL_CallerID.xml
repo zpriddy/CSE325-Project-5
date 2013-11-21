@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>TEL_CallerID</Name>
+    <Description>Caller ID Detection</Description>
+    <Author>Processor Expert / PA</Author>
+    <Version>01.020</Version>
+    <Icon>TELEPHONE</Icon>
+    <TypesFiles>PE,TEL_CallerID\TEL_CallerID</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>Default</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>no</BW_NeedTps>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>SW-Telephony Library</Category>
+    <GroupCategory>SDK</GroupCategory>
+    <DemoDriver>yes</DemoDriver>
+    <Shortcut>TEL</Shortcut>
+    <Licence>Advanced beans;TEL_CallerID</Licence>
+    <OneBeanInstance>!yes</OneBeanInstance>
+    <BW_NeedUst>5</BW_NeedUst>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

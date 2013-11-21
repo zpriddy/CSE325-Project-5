@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>MC9S08QE32_44</Name>
+    <Description>Freescale HCS08 family : MC9S08QE32 in 44 pin QFP package</Description>
+    <Author>Processor Expert/PC</Author>
+    <Version>01.006</Version>
+    <Icon>CPU_CHIP2</Icon>
+    <TypesFiles>PE,FreescaleHC</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Basic beans</Licence>
+    <BW_HelpType>CPUsFull</BW_HelpType>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>no</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Category>CPU-Freescale-HCS08-QE</Category>
+    <BW_HelpFiles>CPU,Properties,Methods,Events,"User Types",Used</BW_HelpFiles>
+    <BeanStatus>RELEASE</BeanStatus>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedUst>1</BW_NeedUst>
+    <BW_NeedCns>11</BW_NeedCns>
+  </Options>
+</Bean>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>MC_Ramp</Name>
+    <Description>Algorithm generates the acceleration ramp.</Description>
+    <Author>Processor Expert / PA</Author>
+    <Version>01.009</Version>
+    <Icon>MC</Icon>
+    <TypesFiles>PE,MC_Ramp\MC_Ramp</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>Default</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>no</BW_NeedTps>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>SW-Control</Category>
+    <DemoDriver>yes</DemoDriver>
+    <Shortcut>MC</Shortcut>
+    <Licence>Advanced beans;MC_Ramp</Licence>
+    <GroupCategory>SDK</GroupCategory>
+    <OneBeanInstance>!yes</OneBeanInstance>
+    <BW_NeedUst>1</BW_NeedUst>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

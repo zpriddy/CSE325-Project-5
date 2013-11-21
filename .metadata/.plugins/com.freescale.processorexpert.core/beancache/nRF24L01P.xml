@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>nRF24L01P</Name>
+    <Description />
+    <Author />
+    <Version>01.003</Version>
+    <Icon>DEFAULT</Icon>
+    <TypesFiles>PE,nRF24L01P\nRF24L01P</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>Default</BW_HelpType>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_HelpFiles>,Events,Methods,Properties,"User Types"</BW_HelpFiles>
+    <BW_NeedTps>no</BW_NeedTps>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BW_NeedCns>0</BW_NeedCns>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>SW-Communication</Category>
+    <Copyright>(c) Copyright &lt;company/user-name&gt;, 2011\nhttp://www.&lt;company&gt;.com\nmail: info@&lt;company&gt;.com</Copyright>
+    <BeanLevel>High</BeanLevel>
+    <DemoDriver>no</DemoDriver>
+  </Options>
+</Bean>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>Init_USB_HOST_EHCI_MCF</Name>
+    <Description>Universal Serial Bus interface (USB HOST)</Description>
+    <Author>Processor Expert/EBGN</Author>
+    <Version>01.003</Version>
+    <Icon>PERIPHINSP</Icon>
+    <TypesFiles>PE,Init_USB_HOST_EHCI_MCF\Init_USB_HOST_EHCI_MCF</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>Init beans</BW_HelpType>
+    <BW_HelpFiles>Init,Properties,Methods</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Licence>Basic beans</Licence>
+    <Shortcut>Init_USB</Shortcut>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>CPU Internal Peripherals-Peripheral Initialization</Category>
+    <DemoDriver>yes</DemoDriver>
+    <GroupCategory>Init bean</GroupCategory>
+    <BeanLevel>Peripheral Initialization</BeanLevel>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

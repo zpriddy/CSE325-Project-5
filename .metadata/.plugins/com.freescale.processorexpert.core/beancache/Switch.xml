@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>Switch</Name>
+    <Description>Switch device support</Description>
+    <Author>Processor Expert / ACh</Author>
+    <Version>01.007</Version>
+    <Icon>Switch_b</Icon>
+    <TypesFiles>PE,Switch\Switch</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>BasicPlusUsage</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"Typical Usage"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Licence>Advanced beans;Switch</Licence>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>CPU External Devices-EVM</Category>
+    <Shortcut>SW</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <GroupCategory>I/O, keyboards, LED, interrupts</GroupCategory>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

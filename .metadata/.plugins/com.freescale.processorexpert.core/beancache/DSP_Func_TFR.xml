@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>DSP_Func_TFR</Name>
+    <Description>Trigonometric Math Library</Description>
+    <Author>Processor Expert / PA</Author>
+    <Version>01.037</Version>
+    <Icon>DSPFNC</Icon>
+    <TypesFiles>PE,DSP_Func_TFR\DSP_Func_TFR</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>Default</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>no</BW_NeedTps>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>SW-DSP Function &amp; Math Library-Trigonometric Function Library</Category>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Advanced beans;DSP_Func_TFR</Licence>
+    <Shortcut>TFR</Shortcut>
+    <GroupCategory>SDK</GroupCategory>
+    <OneBeanInstance>!yes</OneBeanInstance>
+    <BW_NeedUst>14</BW_NeedUst>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>LCDC_LDD</Name>
+    <Description>LCD controller</Description>
+    <Author>Processor Expert/JB</Author>
+    <Version>01.010</Version>
+    <Icon>LCD_LDD</Icon>
+    <TypesFiles>PE,LCDC_LDD\LCDC_LDD</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <BW_NeedUst>20</BW_NeedUst>
+    <BW_NeedCns>3</BW_NeedCns>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>Logical Device Drivers-Display</Category>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Basic beans</Licence>
+    <GroupCategory>Displays, graphics, pictures</GroupCategory>
+    <Shortcut>LCDC</Shortcut>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+  </Options>
+</Bean>
+

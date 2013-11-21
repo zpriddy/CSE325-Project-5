@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>FreeMaster</Name>
+    <Description>FreeMaster supported with SCI and JTAG</Description>
+    <Author>Processor Expert / LH</Author>
+    <Version>01.006</Version>
+    <Icon>MONITOR</Icon>
+    <TypesFiles>PE,FreeMaster\FreeMaster</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>Default</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>CPU External Devices-Display</Category>
+    <Shortcut>FMSTR</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Advanced beans;FreeMaster</Licence>
+    <GroupCategory>SDK</GroupCategory>
+    <OneBeanInstance>!yes</OneBeanInstance>
+    <BW_NeedUst>27</BW_NeedUst>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

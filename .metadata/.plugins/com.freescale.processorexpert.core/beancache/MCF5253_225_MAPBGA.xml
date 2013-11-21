@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>MCF5253_225_MAPBGA</Name>
+    <Description>Freescale ColdFire family: MCF5253_225_MAPBGA</Description>
+    <Author>Processor Expert</Author>
+    <Version>01.018</Version>
+    <Icon>CPU_CHIP2</Icon>
+    <TypesFiles>PE,FreescaleMCF,MCF5253_225_MAPBGA\*</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>Default</BW_HelpType>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <Category>CPU-Freescale-ColdFire-ColdFire V2-MCF525x</Category>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types"</BW_HelpFiles>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BeanStatus>RELEASE</BeanStatus>
+    <DemoDriver>yes</DemoDriver>
+    <BW_NeedCns>0</BW_NeedCns>
+    <Licence>Basic beans</Licence>
+    <GroupCategory>CPUs</GroupCategory>
+    <BeanLevel>High</BeanLevel>
+  </Options>
+</Bean>
+

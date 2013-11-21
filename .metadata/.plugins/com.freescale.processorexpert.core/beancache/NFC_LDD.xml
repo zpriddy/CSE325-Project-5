@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>NFC_LDD</Name>
+    <Description>Flash memory</Description>
+    <Author>MVa</Author>
+    <Version>01.000</Version>
+    <Icon>FLASH_LDD</Icon>
+    <TypesFiles>PE,NFC_LDD\NFC_LDD</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <BW_NeedUst>22</BW_NeedUst>
+    <BW_NeedCns>31</BW_NeedCns>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>Logical Device Drivers-Memory</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+    <Shortcut>NFC</Shortcut>
+    <Licence>Basic beans</Licence>
+    <GroupCategory>Memories</GroupCategory>
+  </Options>
+</Bean>
+

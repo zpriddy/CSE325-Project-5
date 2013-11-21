@@ -1,0 +1,1 @@
+-sym full -msgstyle parseable -proc 52259 -nosyspath -i "$(ProjDirPath)/Sources" -i "$(ProjDirPath)/Project_Headers" -g 

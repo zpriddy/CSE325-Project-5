@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>USB_LDD</Name>
+    <Description>USB adapter component</Description>
+    <Author>Marek Varecha</Author>
+    <Version>01.305</Version>
+    <Icon>USB_LDD</Icon>
+    <TypesFiles>PE,USB_LDD\USB_LDD,USB</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <BW_NeedUst>34</BW_NeedUst>
+    <BW_NeedCns>72</BW_NeedCns>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>Logical Device Drivers-Communication</Category>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Basic beans</Licence>
+    <GroupCategory>Communications</GroupCategory>
+    <Shortcut>USB</Shortcut>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+    <ItemSymbolRenamed>PinGrp_USB_ALT_CLK</ItemSymbolRenamed>
+    <ItemSymbolRenamedTo>PinGrp_USB_CLKIN</ItemSymbolRenamedTo>
+    <ItemSymbolRenamed>Pin_USB_ALT_CLK</ItemSymbolRenamed>
+    <ItemSymbolRenamedTo>Pin_USB_CLKIN</ItemSymbolRenamedTo>
+    <ItemSymbolRenamed>Pin_USB_ALT_CLKSignal</ItemSymbolRenamed>
+    <ItemSymbolRenamedTo>Pin_USB_CLKINSignal</ItemSymbolRenamedTo>
+  </Options>
+</Bean>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>SPIMaster_LDD</Name>
+    <Description>Master for synchronous serial communication</Description>
+    <Author>Processor Expert/SA</Author>
+    <Version>01.082</Version>
+    <Icon>PHONE_LDD</Icon>
+    <TypesFiles>PE,SPIMaster_LDD\SPIMaster_LDD</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <Shortcut>SM</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Basic beans</Licence>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Category>Logical Device Drivers-Communication</Category>
+    <BeanStatus>RELEASE</BeanStatus>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <GroupCategory>Communications</GroupCategory>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+    <BW_NeedUst>21</BW_NeedUst>
+    <BW_NeedCns>1</BW_NeedCns>
+  </Options>
+</Bean>
+

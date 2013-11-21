@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>g165</Name>
+    <Description>Electronic Echo Cancellation (G.165) interface</Description>
+    <Author>Processor Expert / PA</Author>
+    <Version>01.021</Version>
+    <Icon>TELEPHONE</Icon>
+    <TypesFiles>PE,g165\g165</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>Default</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>no</BW_NeedTps>
+    <Licence>Advanced beans;g165</Licence>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>SW-Telephony Library</Category>
+    <GroupCategory>SDK</GroupCategory>
+    <Shortcut>TEL</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <OneBeanInstance>No multiple instances of g16x component allowed. Please remove or disable other g165 or g168 beans.</OneBeanInstance>
+    <BW_NeedUst>6</BW_NeedUst>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

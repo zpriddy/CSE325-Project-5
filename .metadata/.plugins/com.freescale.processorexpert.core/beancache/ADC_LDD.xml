@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>ADC_LDD</Name>
+    <Description>A/D converter</Description>
+    <Author>Processor Expert/SA</Author>
+    <Version>01.107</Version>
+    <Icon>ADC_LDD</Icon>
+    <TypesFiles>PE,ADC_LDD\ADC_LDD</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <Shortcut>AD</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Basic beans</Licence>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Category>Logical Device Drivers-Converter</Category>
+    <BeanStatus>RELEASE</BeanStatus>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <GroupCategory>Converters, sensors</GroupCategory>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+    <BW_NeedUst>22</BW_NeedUst>
+    <BW_NeedCns>22</BW_NeedCns>
+  </Options>
+</Bean>
+

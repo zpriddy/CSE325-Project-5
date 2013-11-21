@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>MC_PIController</Name>
+    <Description>Controller Algorithms for control motor speed, current, shaft position etc. in close loop.</Description>
+    <Author>Processor Expert / PA</Author>
+    <Version>01.019</Version>
+    <Icon>MC</Icon>
+    <TypesFiles>PE,MC_PIController\MC_PIController</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>Default</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>no</BW_NeedTps>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>SW-Control</Category>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Advanced beans;MC_PIController</Licence>
+    <GroupCategory>SDK</GroupCategory>
+    <OneBeanInstance>!yes</OneBeanInstance>
+    <BW_NeedUst>5</BW_NeedUst>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

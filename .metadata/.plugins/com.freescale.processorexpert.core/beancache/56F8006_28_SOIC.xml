@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>56F8006_28_SOIC</Name>
+    <Description>Freescale DSP 56800E family: 56F8006 in 28 SOIC pin package</Description>
+    <Author>Processor Expert/MV</Author>
+    <Version>01.017</Version>
+    <Icon>CPU_CHIP2</Icon>
+    <TypesFiles>PE,FreescaleDSP</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Basic beans</Licence>
+    <BW_HelpType>CPUs</BW_HelpType>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <BW_HelpFiles>CPU,Properties,Methods,Events,Used</BW_HelpFiles>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>CPU-Freescale-56800-MC56F800x</Category>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedUst>1</BW_NeedUst>
+    <GroupCategory>CPUs</GroupCategory>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

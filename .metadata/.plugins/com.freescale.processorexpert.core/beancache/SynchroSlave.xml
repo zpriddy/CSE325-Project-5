@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>SynchroSlave</Name>
+    <Description>Slave for synchronous serial communication</Description>
+    <Author>Processor Expert/SA</Author>
+    <Version>02.246</Version>
+    <Icon>PHONE</Icon>
+    <TypesFiles>PE,SynchroSlave\SynchroSlave</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <Shortcut>SS</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Basic beans</Licence>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Category>CPU Internal Peripherals-Communication</Category>
+    <BeanStatus>RELEASE</BeanStatus>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <GroupCategory>Communications</GroupCategory>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedUst>2</BW_NeedUst>
+    <BW_NeedCns>3</BW_NeedCns>
+  </Options>
+</Bean>
+

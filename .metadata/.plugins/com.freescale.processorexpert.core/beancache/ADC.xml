@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>ADC</Name>
+    <Description>A/D converter</Description>
+    <Author>Processor Expert/SA</Author>
+    <Version>01.630</Version>
+    <Icon>AD</Icon>
+    <TypesFiles>PE,ADC\ADC,Init_HVI_HCS12</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <Shortcut>AD</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Basic beans</Licence>
+    <BW_HelpType>DefaultPlusUsageAppNote</BW_HelpType>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Category>CPU Internal Peripherals-Converter-ADC</Category>
+    <BeanStatus>RELEASE</BeanStatus>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Application Notes","Typical Usage"</BW_HelpFiles>
+    <GroupCategory>Converters, sensors</GroupCategory>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BW_NeedCns>1</BW_NeedCns>
+  </Options>
+</Bean>
+

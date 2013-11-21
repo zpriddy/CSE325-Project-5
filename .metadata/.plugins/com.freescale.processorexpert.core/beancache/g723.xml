@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>g723</Name>
+    <Description>G.723.1A Speech Codec Library</Description>
+    <Author>Processor Expert / ACh</Author>
+    <Version>01.018</Version>
+    <Icon>TELEPHONE</Icon>
+    <TypesFiles>PE,FreescaleDSP</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>Default</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Licence>G_723</Licence>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>SW-Telephony Library</Category>
+    <GroupCategory>SDK</GroupCategory>
+    <Shortcut>CDC</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <OneBeanInstance>!yes</OneBeanInstance>
+    <BW_NeedUst>9</BW_NeedUst>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

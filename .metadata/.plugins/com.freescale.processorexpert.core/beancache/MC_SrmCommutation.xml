@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>MC_SrmCommutation</Name>
+    <Description>3-Phase SR Motor Commutation Handler</Description>
+    <Author>Processor Expert / PA</Author>
+    <Version>01.007</Version>
+    <Icon>MC</Icon>
+    <TypesFiles>PE,MC_SrmCommutation\MC_SrmCommutation</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>Default</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>no</BW_NeedTps>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>SW-Motor Control</Category>
+    <Shortcut>MC</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Advanced beans;MC_SrmCommutation</Licence>
+    <GroupCategory>SDK</GroupCategory>
+    <OneBeanInstance>!yes</OneBeanInstance>
+    <BW_NeedUst>3</BW_NeedUst>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

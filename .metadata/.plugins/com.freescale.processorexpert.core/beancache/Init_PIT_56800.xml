@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>Init_PIT_56800</Name>
+    <Description>Programmable Interval Timer module (PIT)</Description>
+    <Author>Processor Expert / PA</Author>
+    <Version>01.069</Version>
+    <Icon>PERIPHINSP</Icon>
+    <TypesFiles>PE,Init_PIT_56800\Init_PIT_56800</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>Init beans</BW_HelpType>
+    <BW_HelpFiles>Init,Properties,Methods</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Licence>Basic beans</Licence>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>CPU Internal Peripherals-Peripheral Initialization</Category>
+    <GroupCategory>Init bean</GroupCategory>
+    <Shortcut>PIT</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <BeanLevel>Peripheral Initialization</BeanLevel>
+    <BW_NeedCns>0</BW_NeedCns>
+    <UI_ShowInspectorPages>com.freescale.processorexpert.inspector.page.properties,com.freescale.processorexpert.inspector.page.methods</UI_ShowInspectorPages>
+  </Options>
+</Bean>
+

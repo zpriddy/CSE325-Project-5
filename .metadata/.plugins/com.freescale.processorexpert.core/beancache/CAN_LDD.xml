@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>CAN_LDD</Name>
+    <Description>CAN communication</Description>
+    <Author>JR</Author>
+    <Version>01.088</Version>
+    <Icon>CAN_LDD</Icon>
+    <TypesFiles>PE,CAN_LDD\CAN_LDD</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <Shortcut>CAN</Shortcut>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Category>Logical Device Drivers-Communication</Category>
+    <BeanStatus>RELEASE</BeanStatus>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <GroupCategory>Communications</GroupCategory>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+    <BW_NeedUst>26</BW_NeedUst>
+    <BW_NeedCns>8</BW_NeedCns>
+    <DemoDriver>yes</DemoDriver>
+    <SharedDriverSupport>yes</SharedDriverSupport>
+    <ItemSymbolRenamed>Rate</ItemSymbolRenamed>
+    <ItemSymbolRenamedTo>Rate_old</ItemSymbolRenamedTo>
+  </Options>
+</Bean>
+

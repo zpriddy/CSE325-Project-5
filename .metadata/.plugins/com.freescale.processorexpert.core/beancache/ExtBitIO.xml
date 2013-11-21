@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>ExtBitIO</Name>
+    <Description>External 1-bit Input/Output with Direction Register</Description>
+    <Author>Processor Expert/JP</Author>
+    <Version>02.022</Version>
+    <Icon>BITIO</Icon>
+    <TypesFiles>PE,ExtBitIO\ExtBitIO</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <Shortcut>EBit</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <BW_HelpType>BasicPlusUsage</BW_HelpType>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Category>CPU External Devices-Port I/O</Category>
+    <Licence>Advanced beans;ExtBitIO</Licence>
+    <BW_HelpFiles>,Properties,Methods,Events,"Typical Usage"</BW_HelpFiles>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>I/O, keyboards, LED, interrupts</GroupCategory>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

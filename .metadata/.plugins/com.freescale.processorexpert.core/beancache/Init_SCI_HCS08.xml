@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>Init_SCI_HCS08</Name>
+    <Description>Serial Communications Interface (SCI)</Description>
+    <Author>ProcessorExpert/PD (JR)</Author>
+    <Version>01.154</Version>
+    <Icon>PERIPHINSP</Icon>
+    <TypesFiles>PE,Init_SCI_HCS08\Init_SCI_HCS08</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>Init beans</BW_HelpType>
+    <BW_HelpFiles>Init,Properties,Methods</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>CPU Internal Peripherals-Peripheral Initialization</Category>
+    <GroupCategory>Init bean</GroupCategory>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Basic beans</Licence>
+    <Shortcut>SCI</Shortcut>
+    <BeanLevel>Peripheral Initialization</BeanLevel>
+    <BW_NeedUst>0</BW_NeedUst>
+    <ItemSymbolRenamed>Ser</ItemSymbolRenamed>
+    <ItemSymbolRenamedTo>PeriphDevice</ItemSymbolRenamedTo>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

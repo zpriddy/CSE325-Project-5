@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>InternalI2C</Name>
+    <Description>Internal I2C Communication Interface</Description>
+    <Author>Processor Expert/SA</Author>
+    <Version>01.277</Version>
+    <Icon>I2C</Icon>
+    <TypesFiles>PE,InternalI2C\InternalI2C</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <Shortcut>I2C</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Advanced beans;InternalI2C</Licence>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Category>CPU Internal Peripherals-Communication</Category>
+    <BeanStatus>RELEASE</BeanStatus>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <GroupCategory>Communications</GroupCategory>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedUst>1</BW_NeedUst>
+    <BW_NeedCns>3</BW_NeedCns>
+  </Options>
+</Bean>
+

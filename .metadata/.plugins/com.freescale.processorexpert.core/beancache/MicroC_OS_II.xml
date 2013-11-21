@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>MicroC_OS_II</Name>
+    <Description>Operating system MicroC/OS-II</Description>
+    <Author>Processor Expert/MV</Author>
+    <Version>01.028</Version>
+    <Icon>MicroC_OS_II</Icon>
+    <TypesFiles>PE,MicroC_OS_II\MicroC_OS_II</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>no</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>Operating Systems</Category>
+    <Shortcut>uCOS</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Advanced beans;MicroC_OS_II</Licence>
+    <OperatingSystemId>MicroC/OS-II</OperatingSystemId>
+    <BW_NeedUst>35</BW_NeedUst>
+    <BeanLevel>Operating System</BeanLevel>
+    <GroupCategory>SW algorithms, encoding/decoding</GroupCategory>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

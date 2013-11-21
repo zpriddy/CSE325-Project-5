@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>BWimage</Name>
+    <Description>Black &amp; White image</Description>
+    <Author>Processor Expert/RH</Author>
+    <Version>02.032</Version>
+    <Icon>LCDbw</Icon>
+    <TypesFiles>PE,BWimage\BWimage</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <Shortcut>BWim</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>no</BW_NeedTps>
+    <Category>SW-Data</Category>
+    <Licence>Basic beans</Licence>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BeanStatus>RELEASE</BeanStatus>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedUst>4</BW_NeedUst>
+    <GroupCategory>Displays, graphics, pictures</GroupCategory>
+    <BW_NeedCns>5</BW_NeedCns>
+  </Options>
+</Bean>
+

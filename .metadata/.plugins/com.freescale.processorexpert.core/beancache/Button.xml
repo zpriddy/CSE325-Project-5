@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>Button</Name>
+    <Description>Button with inactivity timer support</Description>
+    <Author>Processor Expert / ACh</Author>
+    <Version>01.026</Version>
+    <Icon>EVM_BUTTON_b</Icon>
+    <TypesFiles>PE,Button\Button</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>BasicPlusUsage</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"Typical Usage"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Licence>Advanced beans;Button</Licence>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>CPU External Devices-EVM</Category>
+    <Shortcut>BTN</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <GroupCategory>I/O, keyboards, LED, interrupts</GroupCategory>
+    <BW_NeedUst>0</BW_NeedUst>
+    <BeanLevel>High</BeanLevel>
+    <BW_NeedCns>0</BW_NeedCns>
+  </Options>
+</Bean>
+

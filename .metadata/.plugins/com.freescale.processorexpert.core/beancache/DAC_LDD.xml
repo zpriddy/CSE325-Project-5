@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>DAC_LDD</Name>
+    <Description>D/A converter</Description>
+    <Author>Processor Expert/LH</Author>
+    <Version>01.016</Version>
+    <Icon>DAC_LDD</Icon>
+    <TypesFiles>PE,DAC_LDD\DAC_LDD</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>no</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <Licence>Basic beans</Licence>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>Logical Device Drivers-Converter</Category>
+    <GroupCategory>Converters, sensors</GroupCategory>
+    <Shortcut>DA</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+    <BW_NeedUst>19</BW_NeedUst>
+    <BW_NeedCns>5</BW_NeedCns>
+  </Options>
+</Bean>
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>DMATransfer_LDD</Name>
+    <Description>DMA transfer channel descriptor</Description>
+    <Author>LH</Author>
+    <Version>01.095</Version>
+    <Icon>DMATransfer_LDD</Icon>
+    <TypesFiles>PE,DMATransfer_LDD\DMATransfer_LDD</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <BW_NeedUst>33</BW_NeedUst>
+    <BW_NeedCns>2</BW_NeedCns>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>Logical Device Drivers-DMA</Category>
+    <DemoDriver>yes</DemoDriver>
+    <Shortcut>DMAT</Shortcut>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+    <Licence>Basic beans</Licence>
+  </Options>
+</Bean>
+

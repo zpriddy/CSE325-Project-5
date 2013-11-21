@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>CMT_LDD</Name>
+    <Description>Carrier Modulator Transmitter</Description>
+    <Author>Processor Expert / RH</Author>
+    <Version>01.031</Version>
+    <Icon>SIGNAL_LDD</Icon>
+    <TypesFiles>PE,CMT_LDD\CMT_LDD</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>no</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>Logical Device Drivers-Timer</Category>
+    <Shortcut>CMT</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <GroupCategory>Timers, measurement, signal and pulse generation, motor controll, real-time-clock</GroupCategory>
+    <BW_NeedUst>16</BW_NeedUst>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+    <BW_NeedCns>6</BW_NeedCns>
+    <Licence>Basic beans</Licence>
+  </Options>
+</Bean>
+

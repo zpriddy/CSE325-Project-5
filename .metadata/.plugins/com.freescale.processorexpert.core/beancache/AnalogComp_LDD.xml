@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bean>
+  <Header>
+    <Name>AnalogComp_LDD</Name>
+    <Description>Analog comparator</Description>
+    <Author>Processor Expert /LH</Author>
+    <Version>01.012</Version>
+    <Icon>ANALOGCOMP_LDD</Icon>
+    <TypesFiles>PE,AnalogComp_LDD\AnalogComp_LDD</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BW_HelpType>DefaultPlusUsage</BW_HelpType>
+    <BW_HelpFiles>,Properties,Methods,Events,"User Types","Typical Usage"</BW_HelpFiles>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <BW_NeedTps>yes</BW_NeedTps>
+    <BeanStatus>RELEASE</BeanStatus>
+    <Category>Logical Device Drivers-Measurement</Category>
+    <Shortcut>AC</Shortcut>
+    <DemoDriver>yes</DemoDriver>
+    <Licence>Basic beans</Licence>
+    <GroupCategory>Converters, sensors</GroupCategory>
+    <BeanLevel>Logical Device Driver</BeanLevel>
+    <BW_NeedUst>21</BW_NeedUst>
+    <BW_NeedCns>18</BW_NeedCns>
+    <ItemSymbolRenamed>HighSpeed</ItemSymbolRenamed>
+    <ItemSymbolRenamedTo>HighSpeed0</ItemSymbolRenamedTo>
+    <ItemSymbolRenamed>LowSpeed</ItemSymbolRenamed>
+    <ItemSymbolRenamedTo>HighSpeed1</ItemSymbolRenamedTo>
+    <ItemSymbolRenamed>SlowSpeed</ItemSymbolRenamed>
+    <ItemSymbolRenamedTo>HighSpeed2</ItemSymbolRenamedTo>
+  </Options>
+</Bean>
+
