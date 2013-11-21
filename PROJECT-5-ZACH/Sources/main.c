@@ -9,12 +9,14 @@
 #include "oct_spkr.h"
 #include "note.h"
 #include "dtim.h"
+#include "user.h"
 
 char DATA[1024];
 int count = 0;
 int xfer_end = 0;
 int LENGTH = 0;
 song_t CURRENT_SONG;
+mode_t MODE;
 
 int flash = 0;
 static void uart_callback()
@@ -50,6 +52,17 @@ static void uart_callback()
 	count ++;
 }
 
+static void pb1_callback()
+{
+	
+	
+}
+
+static void pb2_callback()
+{
+	
+}
+
 static void hw_init()
 {
 	int_inhibit_all();
@@ -61,11 +74,40 @@ static void hw_init()
 	pwm_channel_set_duty(2, 0x5F);
 	int_uninhibit_all();
 	uart_channel_enable(uart_1);
+	MODE = idle_mode;
 
+}
+
+static void idle()
+{
+	while(MODE == idle_mode)
+	{
+		uc_led_init();
+		uc_led_all_off();
+	}
+}
+
+static void play()
+{
+	while(MODE == play_mode)
+	{
+		
+		
+	}
+}
+
+static void transfer()
+{
+	while(MODE == transfer_mode)
+	{
+		
+		
+	}
 }
 
 static void run()
 {
+	/*
 	uc_led_all_off();
 	pwm_channel_disable(2);
 	
@@ -113,6 +155,23 @@ static void run()
 			
 			uc_led_on(uc_led_1);
 			pwm_channel_disable(2);
+		}
+	}
+	*/
+	
+	while(1)
+	{
+		switch(MODE)
+		{
+		case idle_mode:
+			idle();
+			break;
+		case play_mode:
+			play();
+			break;
+		case transfer_mode:
+			transfer();
+			break;
 		}
 	}
 	

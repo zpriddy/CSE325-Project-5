@@ -33,44 +33,35 @@
   20000FF2 00000026 .text   uart_channel_enable	(uart_c.obj)
   20001018 00000030 .text   uart1_isr	(uart_c.obj)
   20001048 00000024 .text   uart_channel_getchar	(uart_c.obj)
-  2000106C 00000186 .text   generate_song	(song_c.obj)
-  200011F2 00000030 .text   pwm_channel_disable	(pwm_c.obj)
-  20001222 0000002E .text   pwm_channel_enable	(pwm_c.obj)
-  20001250 00000182 .text   pwm_channel_init	(pwm_c.obj)
-  200013D2 0000002E .text   pwm_channel_set_duty	(pwm_c.obj)
-  20001400 00000082 .text   pwm_set_prescale	(pwm_c.obj)
-  20001482 00000080 .text   pwm_set_scale	(pwm_c.obj)
-  20001502 00000024 .text   pwm_channel_set_period	(pwm_c.obj)
-  20001526 0000000E .text   speaker_init	(oct_spkr_c.obj)
-  20001534 000002B4 .text   speaker_play_note	(oct_spkr_c.obj)
-  200017E8 00000032 .text   generate_note	(note_c.obj)
-  2000181A 000000CA .text   uart_callback	(main_c.obj)
-  200018E4 00000058 .text   hw_init	(main_c.obj)
-  2000193C 000000CA .text   run	(main_c.obj)
-  20001A06 00000012 .text   main	(main_c.obj)
-  20001A18 000000FA .text   @DummyFn1	(int_s.obj)
-  20001A18 00000000 .text   int_config	(int_s.obj)
-  20001A18 000000FA .text   .text	(int_s.obj)
-  20001A5A 00000000 .text   int_inhibit_all	(int_s.obj)
-  20001A76 00000000 .text   int_mask_src	(int_s.obj)
-  20001ABA 00000000 .text   int_unmask_src	(int_s.obj)
-  20001B00 00000000 .text   int_uninhibit_all	(int_s.obj)
-  20001B12 0000026C .text   gpio_port_init	(gpio_c.obj)
-  20001D7E 00000058 .text   gpio_port_set_pin_state	(gpio_c.obj)
-  20001DD6 00000004 .text   TrapHandler_printf	(exceptions_c.obj)
-  20001DDA 00000200 .text   mcf_exception_handler	(exceptions_c.obj)
-  20001FDA 00000020 .text   asm_exception_handler	(exceptions_c.obj)
-  20001FFA 00000008 .text   mcf5xxx_wr_vbr	(exceptions_c.obj)
-  20002002 00000062 .text   initialize_exceptions	(exceptions_c.obj)
-  20002064 0000002C .text   dtim0_busy_delay_ms	(dtim_c.obj)
-  20002090 00000068 .text   dtim0_busy_delay_us	(dtim_c.obj)
-  200020F8 00000086 .text   dtim0_init	(dtim_c.obj)
-  2000217E 00000020 .text   pll_init	(TWR-MCF5225X_sysinit_c.obj)
-  2000219E 00000022 .text   scm_init	(TWR-MCF5225X_sysinit_c.obj)
-  200021C0 0000003E .text   __initialize_hardware	(TWR-MCF5225X_sysinit_c.obj)
-  200021FE 0000001C .text   __call_static_initializers	(librt.a cf_staticinitia)
-#>2000221C          ___ROM_AT (linker command file)
-#>2000221C          ___DATA_ROM (linker command file)
+  2000106C 00000182 .text   pwm_channel_init	(pwm_c.obj)
+  200011EE 0000002E .text   pwm_channel_set_duty	(pwm_c.obj)
+  2000121C 0000000E .text   speaker_init	(oct_spkr_c.obj)
+  2000122A 000000CA .text   uart_callback	(main_c.obj)
+  200012F4 00000060 .text   hw_init	(main_c.obj)
+  20001354 00000020 .text   idle	(main_c.obj)
+  20001374 00000044 .text   run	(main_c.obj)
+  200013B8 00000012 .text   main	(main_c.obj)
+  200013CC 000000FA .text   @DummyFn1	(int_s.obj)
+  200013CC 00000000 .text   int_config	(int_s.obj)
+  200013CC 000000FA .text   .text	(int_s.obj)
+  2000140E 00000000 .text   int_inhibit_all	(int_s.obj)
+  2000142A 00000000 .text   int_mask_src	(int_s.obj)
+  2000146E 00000000 .text   int_unmask_src	(int_s.obj)
+  200014B4 00000000 .text   int_uninhibit_all	(int_s.obj)
+  200014C6 0000026C .text   gpio_port_init	(gpio_c.obj)
+  20001732 00000058 .text   gpio_port_set_pin_state	(gpio_c.obj)
+  2000178A 00000004 .text   TrapHandler_printf	(exceptions_c.obj)
+  2000178E 00000200 .text   mcf_exception_handler	(exceptions_c.obj)
+  2000198E 00000020 .text   asm_exception_handler	(exceptions_c.obj)
+  200019AE 00000008 .text   mcf5xxx_wr_vbr	(exceptions_c.obj)
+  200019B6 00000062 .text   initialize_exceptions	(exceptions_c.obj)
+  20001A18 00000086 .text   dtim0_init	(dtim_c.obj)
+  20001A9E 00000020 .text   pll_init	(TWR-MCF5225X_sysinit_c.obj)
+  20001ABE 00000022 .text   scm_init	(TWR-MCF5225X_sysinit_c.obj)
+  20001AE0 0000003E .text   __initialize_hardware	(TWR-MCF5225X_sysinit_c.obj)
+  20001B1E 0000001C .text   __call_static_initializers	(librt.a cf_staticinitia)
+#>20001B3C          ___ROM_AT (linker command file)
+#>20001B3C          ___DATA_ROM (linker command file)
 
 # .data
 #>20005000          ___DATA_RAM (linker command file)
@@ -98,25 +89,25 @@
   2000500C 00000004 .bss    xfer_end	(main_c.obj)
   20005010 00000004 .bss    LENGTH	(main_c.obj)
   20005014 00000004 .bss    flash	(main_c.obj)
-  20005018 00000240 .bss    CURRENT_SONG	(main_c.obj)
-  20005258 00000400 .bss    DATA	(main_c.obj)
-#>20005658          __END_BSS (linker command file)
-#>20005658          ___BSS_END (linker command file)
+  20005018 00000001 .bss    MODE	(main_c.obj)
+  20005019 00000400 .bss    DATA	(main_c.obj)
+#>2000541C          __END_BSS (linker command file)
+#>2000541C          ___BSS_END (linker command file)
 
 # .custom
-#>20005658          ___HEAP_START (linker command file)
-#>20005658          ___heap_addr (linker command file)
-#>20005A58          ___HEAP_END (linker command file)
-#>20005A58          ___SP_END (linker command file)
-#>20006258          ___SP_INIT (linker command file)
+#>2000541C          ___HEAP_START (linker command file)
+#>2000541C          ___heap_addr (linker command file)
+#>2000581C          ___HEAP_END (linker command file)
+#>2000581C          ___SP_END (linker command file)
+#>2000601C          ___SP_INIT (linker command file)
 #>20000000          ___VECTOR_RAM (linker command file)
-#>20006258          __SP_INIT (linker command file)
-#>20005A58          ___mem_limit (linker command file)
+#>2000601C          __SP_INIT (linker command file)
+#>2000581C          ___mem_limit (linker command file)
 #>00000010          ___stack_safety (linker command file)
-#>20002220          _romp_at (linker command file)
+#>20001B40          _romp_at (linker command file)
 
 # .romp
-#>20002220          __S_romp (linker command file)
+#>20001B40          __S_romp (linker command file)
 
 
 # Memory map:
@@ -124,12 +115,12 @@
   20000000 20000000 00000000 .vectorram vectorram
   20000500 20000500 00000000 .code      code
   20000500 20000500 00000400 .vectors   code
-  20000900 20000900 0000191C .text      code
+  20000900 20000900 0000123C .text      code
   20005000 20005000 00000000 .userram   userram
-  20005000 2000221C 00000004 .data      userram
-  20005004 20005004 00000654 .bss       userram
-  20005658 20005658 00000000 .custom    userram
-  20005658 20002220 00000018 .romp      userram
+  20005000 20001B3C 00000004 .data      userram
+  20005004 20005004 00000418 .bss       userram
+  2000541C 2000541C 00000000 .custom    userram
+  2000541C 20001B40 00000018 .romp      userram
 
-# Link start time: Thu Nov 21 15:07:51 2013
-# Link end time: Thu Nov 21 15:07:51 2013
+# Link start time: Thu Nov 21 15:43:19 2013
+# Link end time: Thu Nov 21 15:43:19 2013
