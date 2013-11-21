@@ -107,7 +107,7 @@ static void transfer()
 
 static void run()
 {
-	/*
+	
 	uc_led_all_off();
 	pwm_channel_disable(2);
 	
@@ -157,8 +157,8 @@ static void run()
 			pwm_channel_disable(2);
 		}
 	}
-	*/
 	
+	/*
 	while(1)
 	{
 		switch(MODE)
@@ -174,6 +174,7 @@ static void run()
 			break;
 		}
 	}
+	*/
 	
 }
 
