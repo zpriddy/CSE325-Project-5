@@ -81,11 +81,7 @@ __declspec(interrupt) void uc_pushb1_isr()
 	{
 		g_pb1_callback();
 	}
-	
-	
 
-
-	
 	return;
 	
 }

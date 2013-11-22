@@ -44,4 +44,6 @@ Sources/main_c.obj: C:\GIT-REPOS\CSE325-PROJECT-5\PROJECT-5-ZACH\Sources\main.c 
 	C:\GIT-REPOS\CSE325-PROJECT-5\PROJECT-5-ZACH\Project_Headers\dtim.h \
 	C:\GIT-REPOS\CSE325-PROJECT-5\PROJECT-5-ZACH\Project_Headers\user.h \
 	C:\GIT-REPOS\CSE325-PROJECT-5\PROJECT-5-ZACH\Project_Headers\uc_pushb.h \
-	C:\GIT-REPOS\CSE325-PROJECT-5\PROJECT-5-ZACH\Project_Headers\uc_pot.h 
+	C:\GIT-REPOS\CSE325-PROJECT-5\PROJECT-5-ZACH\Project_Headers\pit.h \
+	C:\GIT-REPOS\CSE325-PROJECT-5\PROJECT-5-ZACH\Project_Headers\uc_pot.h \
+	C:\GIT-REPOS\CSE325-PROJECT-5\PROJECT-5-ZACH\Project_Headers\adc.h 

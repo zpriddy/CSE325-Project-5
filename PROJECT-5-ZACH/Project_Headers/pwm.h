@@ -14,52 +14,75 @@
 // Date: Oct 24, 2013
 //
 //********************************************************************************************************
-
+//********************************************************************************************************
 #ifndef PWM_H_
 #define PWM_H_
-#include "common.h"
+/*
+int PWM_CLK_SRC_AB = 0x00;
+int PWM_CLK_SRC_SASB = 0x01;
+*/
+//--------------------------------------------------------------------------------------------------------------
+// FUNCTION: pwm_channel_enable
+//
+// DESCRIPTION
+// Enable PWM channel n for work
+//--------------------------------------------------------------------------------------------------------------
+void pwm_channel_enable(int n_channel);
 
-typedef enum
-{
-	pwm_pin_0     = 0x1,
-	pwm_pin_1     = 0x2,
-	pwm_pin_2     = 0x4,
-	pwm_pin_3     = 0x8,
-	pwm_pin_4     = 0x10,
-	pwm_pin_5     = 0x20,
-	pwm_pin_6     = 0x40,
-	pwm_pin_7     = 0x80,
-	
-	pwm_pin_red   = 0x10,
-	pwm_pin_green = 0x20,
-	pwm_pin_blue  = 0x40
+//--------------------------------------------------------------------------------------------------------------
+// FUNCTION: pwm_channel_disable
+//
+// DESCRIPTION
+// Disable PWM channel n
+//--------------------------------------------------------------------------------------------------------------
+void pwm_channel_disable(int n_channel);
 
-}pwm_pin_t;
-
-typedef enum
-{
-	pwm_pol_high = 1,
-	pwm_pol_low  = 0
-}pwm_pol_t;
-
-typedef enum
-{
-	pwm_clk_a = 0,
-	pwm_clk_b = 0,
-	pwm_clk_sa = 1,
-	pwm_clk_sb = 1
-}pwm_clk_t;
-
-
-void pwm_channel_disable(int p_channel);
-void pwm_channel_enable(int p_channel);
+//--------------------------------------------------------------------------------------------------------------
+// FUNCTION: pwm_channel_disable_all
+//
+// DESCRIPTION
+// Disable PWM channel n
+//--------------------------------------------------------------------------------------------------------------
 void pwm_channel_disable_all();
-void pwm_channel_init(int p_channel);
-void pwm_channel_set_duty(int p_channel, int p_duty);
-void pwm_channel_set_frequency();
+
+//--------------------------------------------------------------------------------------------------------------
+// FUNCTION: pwm_channel_init
+//
+// DESCRIPTION
+// Function to initialize channel n
+// set clock A or B prescale value (PCKA or PCKB), clock SA or SB scale value (SCALEA or SCALEB), signal polarity
+// value for PWMPERn register and configure the channel for left-aligned mode
+//--------------------------------------------------------------------------------------------------------------
+void pwm_channel_init(int n_channel, int pwm_clock_src, int pwm_clock_prescale,
+                                                int pwm_scale, int pwm_polarity, int pwm_period);
+
+//--------------------------------------------------------------------------------------------------------------
+// FUNCTION: pwm_channel_set_duty
+//
+// DESCRIPTION
+// Set the duty cycle of channel n
+//--------------------------------------------------------------------------------------------------------------
+void pwm_channel_set_duty(int n_channel, int pwm_duty);
+
+//--------------------------------------------------------------------------------------------------------------
+// FUNCTION: pwm_channel_set_frequency
+//
+// DESCRIPTION
+// Set the frequency cycle of channel n
+//--------------------------------------------------------------------------------------------------------------
+void pwm_channel_set_frequency(int n_channel, int pwm_clock_src, int pwm_psck, int pwm_scale);
+
+//--------------------------------------------------------------------------------------------------------------
+// FUNCTION: pwm_channel_start
+//
+// DESCRIPTION
+// Start the signal output of the channel
+//--------------------------------------------------------------------------------------------------------------
+void pwm_channel_start(int n_channel, int pwm_duty);
+
+void pwm_set_prescale(int p_channel, int pwm_psck);
+void pwm_set_scale(int p_channel, int pwm_scale);
 void pwm_channel_start_output(int p_channel);
-void pwm_set_scale(int p_channel, int p_scale);
 void pwm_channel_set_period(int p_channel, int value);
-void pwm_set_prescale(int p_channel, int p_prescale);
 
 #endif /* PWM_H_ */

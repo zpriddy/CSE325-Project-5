@@ -104,6 +104,8 @@ void uart_channel_enable(uart p_uart) {
 	MCF_UART_UCR(p_uart) = (uint8)(0x01);
 }
 
+
+
 /* Provides an ISR which gets called when a character is received. Call a user callback function (in xfersong module) */
 
 __declspec(interrupt) void uart1_isr() {

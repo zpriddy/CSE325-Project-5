@@ -55,5 +55,6 @@ typedef enum {
 void uart_channel_init(int, int, parity, bits_per_character, stop_bits, int, int, int_isr);
 void uart_channel_enable(uart);
 char uart_channel_getchar(uart);
+void uart_channel_disable(uart);
 
 #endif /* UART_H_ */

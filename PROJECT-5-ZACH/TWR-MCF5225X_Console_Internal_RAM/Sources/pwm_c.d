@@ -3,7 +3,7 @@ Sources/pwm_c.obj: C:\GIT-REPOS\CSE325-PROJECT-5\PROJECT-5-ZACH\Sources\pwm.c \
 	C:\Freescale\CW\ MCU\ v10.2\MCU\ColdFire_Support\ewl\EWL_C\include\common.prefix \
 	C:\Freescale\CW\ MCU\ v10.2\MCU\ColdFire_Support\ewl\EWL_C\include\ewl_c_version.h \
 	C:\GIT-REPOS\CSE325-PROJECT-5\PROJECT-5-ZACH\Project_Headers\pwm.h \
-	C:\GIT-REPOS\CSE325-PROJECT-5\PROJECT-5-ZACH\Project_Headers\common.h \
+	C:\GIT-REPOS\CSE325-PROJECT-5\PROJECT-5-ZACH\Project_Headers\gpio.h \
 	C:\GIT-REPOS\CSE325-PROJECT-5\PROJECT-5-ZACH\Project_Headers\support_common.h \
 	C:\Freescale\CW\ MCU\ v10.2\MCU\ColdFire_Support\(headers)\MCF52259\MCF52259.h \
 	C:\Freescale\CW\ MCU\ v10.2\MCU\ColdFire_Support\(headers)\MCF52259\MCF52259_SCM.h \
@@ -33,8 +33,4 @@ Sources/pwm_c.obj: C:\GIT-REPOS\CSE325-PROJECT-5\PROJECT-5-ZACH\Sources\pwm.c \
 	C:\Freescale\CW\ MCU\ v10.2\MCU\ColdFire_Support\(headers)\MCF52259\MCF52259_USB_OTG.h \
 	C:\Freescale\CW\ MCU\ v10.2\MCU\ColdFire_Support\(headers)\MCF52259\MCF52259_CFM.h \
 	C:\Freescale\CW\ MCU\ v10.2\MCU\ColdFire_Support\(headers)\MCF52259\MCF52259_RNGA.h \
-	C:\GIT-REPOS\CSE325-PROJECT-5\PROJECT-5-ZACH\Project_Headers\TWR-MCF5225X_sysinit.h \
-	C:\GIT-REPOS\CSE325-PROJECT-5\PROJECT-5-ZACH\Project_Headers\gpio.h \
-	C:\GIT-REPOS\CSE325-PROJECT-5\PROJECT-5-ZACH\Project_Headers\uc_led.h \
-	C:\GIT-REPOS\CSE325-PROJECT-5\PROJECT-5-ZACH\Project_Headers\int.h \
-	C:\GIT-REPOS\CSE325-PROJECT-5\PROJECT-5-ZACH\Project_Headers\uart.h 
+	C:\GIT-REPOS\CSE325-PROJECT-5\PROJECT-5-ZACH\Project_Headers\TWR-MCF5225X_sysinit.h 
