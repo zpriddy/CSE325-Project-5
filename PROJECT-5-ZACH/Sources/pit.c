@@ -62,7 +62,7 @@ void pit0_init(int_isr p_callback, int p_scaler)
 	MCF_PIT0_PCSR |= MCF_PIT_PCSR_PRE(p_scaler);
 
 	// Write PMR0
-	MCF_PIT0_PMR |= MCF_PIT_PMR_PM(49999);
+	MCF_PIT0_PMR = (24999);
 }
 
 void pit1_init(int_isr p_callback, int p_scaler)
@@ -91,7 +91,7 @@ void pit1_init(int_isr p_callback, int p_scaler)
 	MCF_PIT1_PCSR |= MCF_PIT_PCSR_PRE(p_scaler);
 
 	// Write PMR0
-	MCF_PIT1_PMR = (uint16)0x3D08;
+	MCF_PIT1_PMR = (24999);
 	
 	int_config(56, 2, 7, pit_1_handler);
 

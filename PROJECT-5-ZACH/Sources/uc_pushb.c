@@ -73,7 +73,7 @@ __declspec(interrupt) void uc_pushb1_isr()
 {
 
 	
-	uc_pushb_debounce(uc_pb_1);
+	//uc_pushb_debounce(uc_pb_1);
 	
 	gpt_clr_flag(gpt_pin_0);
 	
@@ -81,18 +81,14 @@ __declspec(interrupt) void uc_pushb1_isr()
 	{
 		g_pb1_callback();
 	}
-	
-	
 
-
-	
 	return;
 	
 }
 
 __declspec(interrupt) void uc_pushb2_isr() 
 {
-	uc_pushb_debounce(uc_pb_2);
+	//uc_pushb_debounce(uc_pb_2);
 	gpt_clr_flag(gpt_pin_1);
 	if (g_pb2_callback != 0)
 	{

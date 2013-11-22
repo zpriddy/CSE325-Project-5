@@ -26,7 +26,8 @@ typedef enum
 typedef enum
 {
 	transfer_idle = 0,
-	transfer_in_progress = 1
+	transfer_in_progress = 1,
+	transfer_no_song = 3
 }transfer_mode_t;
 
 #endif /* USER_H_ */
