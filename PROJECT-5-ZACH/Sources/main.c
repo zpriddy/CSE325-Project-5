@@ -10,13 +10,17 @@
 #include "note.h"
 #include "dtim.h"
 #include "user.h"
+#include "uc_pushb.h"
 
 char DATA[1024];
 int count = 0;
 int xfer_end = 0;
 int LENGTH = 0;
+int playback_pos = 0;
 song_t CURRENT_SONG;
 mode_t MODE;
+play_t PLAYBACK;
+transfer_mode_t TRANSFER_STATUS;
 
 int flash = 0;
 static void uart_callback()
@@ -54,19 +58,62 @@ static void uart_callback()
 
 static void pb1_callback()
 {
+	if(MODE == idle_mode)
+	{
+		MODE = play_mode;
+	}
+	if(MODE == play_mode)
+	{
+		switch(PLAYBACK)
+		{
+		case playing:
+			PLAYBACK = paused;
+			break;
+		case paused:
+			PLAYBACK = playing;
+			break;
+		}
+		
+	}
+	if(MODE == transfer_mode)
+	{
+
+		
+	}
 	
 	
 }
 
 static void pb2_callback()
 {
+	if(MODE == idle_mode)
+	{
+		MODE = transfer_mode;
+	}
+	if(MODE == play_mode)
+	{
+		PLAYBACK = restart;
+		MODE = idle_mode;
+	}
+	if(MODE == transfer_mode)
+	{
+		if(TRANSFER_STATUS == transfer_idle)
+		{
+			MODE = idle_mode;
+		}
+		else if(TRANSFER_STATUS == transfer_in_progress)
+		{
+			
+		}
+		
+	}
 	
 }
 
 static void hw_init()
 {
 	int_inhibit_all();
-	
+	uc_pushb_init(pb1_callback, pb2_callback);
 	uc_led_init();
 	dtim0_init();
 	speaker_init();
@@ -117,7 +164,7 @@ static void run()
 	
 	
 	
-	
+	/*
 	while(1)
 	{
 		if( xfer_end == 1)
@@ -156,9 +203,10 @@ static void run()
 			uc_led_on(uc_led_1);
 			pwm_channel_disable(2);
 		}
-	}
+		
+	} */
 	
-	/*
+	
 	while(1)
 	{
 		switch(MODE)
@@ -174,7 +222,7 @@ static void run()
 			break;
 		}
 	}
-	*/
+
 	
 }
 

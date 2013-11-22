@@ -22,6 +22,7 @@ C_SRCS_QUOTED += \
 "../Sources/uart_support.c" \
 "../Sources/uc_led.c" \
 "../Sources/uc_pot.c" \
+"../Sources/uc_pushb.c" \
 
 C_SRCS += \
 ../Sources/TWR-MCF5225X_sysinit.c \
@@ -40,6 +41,7 @@ C_SRCS += \
 ../Sources/uart_support.c \
 ../Sources/uc_led.c \
 ../Sources/uc_pot.c \
+../Sources/uc_pushb.c \
 
 S_SRCS += \
 ../Sources/gpt.s \
@@ -68,6 +70,7 @@ OBJS += \
 ./Sources/uart_support_c.obj \
 ./Sources/uc_led_c.obj \
 ./Sources/uc_pot_c.obj \
+./Sources/uc_pushb_c.obj \
 
 OBJS_QUOTED += \
 "./Sources/TWR-MCF5225X_sysinit_c.obj" \
@@ -88,6 +91,7 @@ OBJS_QUOTED += \
 "./Sources/uart_support_c.obj" \
 "./Sources/uc_led_c.obj" \
 "./Sources/uc_pot_c.obj" \
+"./Sources/uc_pushb_c.obj" \
 
 C_DEPS += \
 ./Sources/TWR-MCF5225X_sysinit_c.d \
@@ -106,6 +110,7 @@ C_DEPS += \
 ./Sources/uart_support_c.d \
 ./Sources/uc_led_c.d \
 ./Sources/uc_pot_c.d \
+./Sources/uc_pushb_c.d \
 
 OBJS_OS_FORMAT += \
 ./Sources/TWR-MCF5225X_sysinit_c.obj \
@@ -126,6 +131,7 @@ OBJS_OS_FORMAT += \
 ./Sources/uart_support_c.obj \
 ./Sources/uc_led_c.obj \
 ./Sources/uc_pot_c.obj \
+./Sources/uc_pushb_c.obj \
 
 C_DEPS_QUOTED += \
 "./Sources/TWR-MCF5225X_sysinit_c.d" \
@@ -144,6 +150,7 @@ C_DEPS_QUOTED += \
 "./Sources/uart_support_c.d" \
 "./Sources/uc_led_c.d" \
 "./Sources/uc_pot_c.d" \
+"./Sources/uc_pushb_c.d" \
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -293,6 +300,14 @@ Sources/uc_pot_c.obj: ../Sources/uc_pot.c
 	@echo 'Executing target #18 $<'
 	@echo 'Invoking: ColdFire Compiler'
 	"$(CF_ToolsDirEnv)/mwccmcf" @@"Sources/uc_pot.args" -o "Sources/uc_pot_c.obj" "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/uc_pushb_c.obj: ../Sources/uc_pushb.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #19 $<'
+	@echo 'Invoking: ColdFire Compiler'
+	"$(CF_ToolsDirEnv)/mwccmcf" @@"Sources/uc_pushb.args" -o "Sources/uc_pushb_c.obj" "$<" -MD -gccdep
 	@echo 'Finished building: $<'
 	@echo ' '
 

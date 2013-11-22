@@ -30,7 +30,7 @@ C_DEPS_QUOTED += \
 # Each subdirectory must supply rules for building sources it contributes
 Project_Settings/Startup_Code/startcf_c.obj: ../Project_Settings/Startup_Code/startcf.c
 	@echo 'Building file: $<'
-	@echo 'Executing target #19 $<'
+	@echo 'Executing target #20 $<'
 	@echo 'Invoking: ColdFire Compiler'
 	"$(CF_ToolsDirEnv)/mwccmcf" @@"Project_Settings/Startup_Code/startcf.args" -o "Project_Settings/Startup_Code/startcf_c.obj" "$<" -MD -gccdep
 	@echo 'Finished building: $<'
