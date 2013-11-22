@@ -77,11 +77,7 @@ static void pb1_callback()
 	}
 	if(MODE == transfer_mode)
 	{
-
-		
 	}
-	
-	
 }
 
 static void pb2_callback()
@@ -102,12 +98,9 @@ static void pb2_callback()
 			MODE = idle_mode;
 		}
 		else if(TRANSFER_STATUS == transfer_in_progress)
-		{
-			
+		{	
 		}
-		
 	}
-	
 }
 
 static void hw_init()
