@@ -79,9 +79,9 @@ void speaker_play_note(note_t p_note)
 			pwm_set_scale(2, 117);
 			break;
 		case pitch_g4_sharp:
-			pwm_channel_set_period(2, 142);
+			pwm_channel_set_period(2, 86);
 			pwm_set_prescale(2, 2);
-			pwm_set_scale(2, 80);
+			pwm_set_scale(2, 140);
 			break;
 		case pitch_a4:
 			pwm_channel_set_period(2, 142);
@@ -94,9 +94,9 @@ void speaker_play_note(note_t p_note)
 			pwm_set_scale(2, 173);
 			break;
 		case pitch_b4:
-			pwm_channel_set_period(2, 45);
-			pwm_set_prescale(2, 0x00);
-			pwm_set_scale(2, 225);
+			pwm_channel_set_period(2, 191);
+			pwm_set_prescale(2, 2);
+			pwm_set_scale(2, 53);
 			break;
 		case pitch_c5:
 			pwm_channel_set_period(2, 39);
@@ -115,18 +115,18 @@ void speaker_play_note(note_t p_note)
 			break;
 		case pitch_d5_sharp:
 			pwm_channel_set_period(2, 196);
-			pwm_set_prescale(2, 0x02);
+			pwm_set_prescale(2, 2);
 			pwm_set_scale(2, 41);
 			break;
 		case pitch_e5:
-			pwm_channel_set_period(2, 41);
+			pwm_channel_set_period(2, 96);
 			pwm_set_prescale(2, 2);
-			pwm_set_scale(2, 189);
+			pwm_set_scale(2, 79);
 			break;
 		case pitch_f5:
-			pwm_channel_set_period(2, 45);
+			pwm_channel_set_period(2, 179);
 			pwm_set_prescale(2, 2);
-			pwm_set_scale(2, 159);
+			pwm_set_scale(2, 40);
 			break;
 		case pitch_mute:
 			pwm_channel_disable(2);

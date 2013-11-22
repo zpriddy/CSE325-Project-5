@@ -15,4 +15,10 @@ typedef enum
 	idle_mode		= 2
 }mode_t;
 
+typedef enum
+{
+	playing_mode = 0,
+	pause_mode = 1
+} play_t;
+
 #endif /* USER_H_ */
