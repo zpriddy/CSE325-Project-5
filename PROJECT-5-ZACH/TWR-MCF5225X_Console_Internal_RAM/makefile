@@ -2,7 +2,7 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-#Progress monitor hint: 19
+#Progress monitor hint: 21
 first : all
 -include ../makefile.init
 
@@ -77,14 +77,14 @@ endif
 # Tool invocations
 PROJECT-5-ZACH.elf: $(OBJS) $(USER_OBJS) ../Project_Settings/Linker_Files/TWR-MCF5225X_Console_Internal_RAM.lcf
 	@echo 'Building target: $@'
-	@echo 'Executing target #20 $@'
+	@echo 'Executing target #22 $@'
 	@echo 'Invoking: ColdFire Linker'
 	"$(CF_ToolsDirEnv)/mwldmcf" @@"PROJECT-5-ZACH.args" -o "PROJECT-5-ZACH.elf"  $(USER_OBJS_QUOTED) $(LIBS_QUOTED)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 PROJECT-5-ZACH.elf.s19: $(BBL_SRCS) $(EXECUTABLES)
-	@echo 'Executing target #21 $@'
+	@echo 'Executing target #23 $@'
 	@echo 'Invoking: Burner'
 	"$(HC08ToolsEnv)/burner.exe"  -f="$<" -env"ABS_FILE=$(strip $(EXECUTABLES_OS_FORMAT))"
 	@echo 'Finished building: $@'

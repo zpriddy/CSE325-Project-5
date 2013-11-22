@@ -155,7 +155,7 @@ _int_config:
 ; If p_src > 31 then...
     move.l     8(a6), d0             ; d0 <- p_src
     cmpi.l     #31, d0               ; is d0 <= 31?
-    ble.l      @write_imrl           ; Yes, skip to false-clause.
+    ble      @write_imrl           ; Yes, skip to false-clause.
 
 ; INT0_IMRH |= 1 << (p_src - 32)
     subi.l     #32, d0               ; d0 <- p_src - 32
