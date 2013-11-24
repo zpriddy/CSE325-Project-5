@@ -1,0 +1,186 @@
+
+
+#>00000400          ___heap_size (linker command file)
+#>00000800          ___stack_size (linker command file)
+#>40000000          ___IPSBAR (linker command file)
+#>20000000          ___RAMBAR (linker command file)
+#>00010000          ___RAMBAR_SIZE (linker command file)
+#>00000000          ___FLASHBAR (linker command file)
+#>00080000          ___FLASHBAR_SIZE (linker command file)
+#>2000FFFC          ___SP_AFTER_RESET (linker command file)
+
+# .userram
+
+# .code
+
+# .vectorram
+
+# .vectors
+  20000500 00000400 .vectortable _vect	(exceptions_c.obj)
+
+# .text
+  20000900 00000008 .text   __initialize_system	(startcf_c.obj)
+  20000908 0000006C .text   __copy_rom_section	(startcf_c.obj)
+  20000974 0000005C .text   __copy_rom_sections_to_ram	(startcf_c.obj)
+  200009D0 0000022A .text   clear_mem	(startcf_c.obj)
+  20000BFA 00000096 .text   _startup	(startcf_c.obj)
+  20000C90 000000A4 .text   uc_pushb_init	(uc_pushb_c.obj)
+  20000D34 00000062 .text   uc_pushb_debounce	(uc_pushb_c.obj)
+  20000D96 0000003C .text   uc_pushb1_isr	(uc_pushb_c.obj)
+  20000DD2 0000003C .text   uc_pushb2_isr	(uc_pushb_c.obj)
+  20000E0E 00000018 .text   uc_pot_get_setting	(uc_pot_c.obj)
+  20000E26 00000010 .text   uc_pot_init	(uc_pot_c.obj)
+  20000E36 00000020 .text   uc_led_all_off	(uc_led_c.obj)
+  20000E56 00000062 .text   uc_led_init	(uc_led_c.obj)
+  20000EB8 0000001A .text   uc_led_off	(uc_led_c.obj)
+  20000ED2 0000001A .text   uc_led_on	(uc_led_c.obj)
+  20000EEC 00000040 .text   uc_led_toggle	(uc_led_c.obj)
+  20000F2C 0000028C .text   uart_channel_init	(uart_c.obj)
+  200011B8 00000026 .text   uart_channel_enable	(uart_c.obj)
+  200011DE 00000030 .text   uart1_isr	(uart_c.obj)
+  2000120E 00000024 .text   uart_channel_getchar	(uart_c.obj)
+  20001232 00000186 .text   generate_song	(song_c.obj)
+  200013B8 000000AA .text   get_pot	(song_c.obj)
+  20001462 0000027E .text   get_tempo	(song_c.obj)
+  200016E0 00000030 .text   pwm_channel_disable	(pwm_c.obj)
+  20001710 0000002E .text   pwm_channel_enable	(pwm_c.obj)
+  2000173E 00000126 .text   pwm_channel_init	(pwm_c.obj)
+  20001864 00000024 .text   pwm_channel_set_duty	(pwm_c.obj)
+  20001888 00000118 .text   pwm_channel_set_frequency	(pwm_c.obj)
+  200019A0 000000BA .text   pwm_set_prescale	(pwm_c.obj)
+  20001A5A 00000052 .text   pwm_set_scale	(pwm_c.obj)
+  20001AAC 00000024 .text   pwm_channel_set_period	(pwm_c.obj)
+  20001AD0 00000104 .text   pit0_init	(pit_c.obj)
+  20001BD4 00000024 .text   pit0_enable	(pit_c.obj)
+  20001BF8 00000024 .text   pit1_enable	(pit_c.obj)
+  20001C1C 00000080 .text   pit_0_handler	(pit_c.obj)
+  20001C9C 0000002A .text   speaker_init	(oct_spkr_c.obj)
+  20001CC6 000002AE .text   speaker_play_note	(oct_spkr_c.obj)
+  20001F74 00000032 .text   generate_note	(note_c.obj)
+  20001FA6 000000DC .text   uart_callback	(main_c.obj)
+  20002082 0000006A .text   pb1_callback	(main_c.obj)
+  200020EC 00000060 .text   pb2_callback	(main_c.obj)
+  2000214C 00000028 .text   pit0_callback	(main_c.obj)
+  20002174 00000090 .text   hw_init	(main_c.obj)
+  20002204 00000024 .text   idle	(main_c.obj)
+  20002228 00000124 .text   play	(main_c.obj)
+  2000234C 00000048 .text   run	(main_c.obj)
+  20002394 00000012 .text   main	(main_c.obj)
+  200023A8 000000F8 .text   @DummyFn1	(int_s.obj)
+  200023A8 00000000 .text   int_config	(int_s.obj)
+  200023A8 000000F8 .text   .text	(int_s.obj)
+  200023EA 00000000 .text   int_inhibit_all	(int_s.obj)
+  20002406 00000000 .text   int_mask_src	(int_s.obj)
+  20002448 00000000 .text   int_unmask_src	(int_s.obj)
+  2000248E 00000000 .text   int_uninhibit_all	(int_s.obj)
+  200024A0 000000C4 .text   @DummyFn1	(gpt_s.obj)
+  200024A0 000000C4 .text   .text	(gpt_s.obj)
+  200024A0 00000000 .text   gpt_clr_flag	(gpt_s.obj)
+  200024C0 00000000 .text   gpt_disable	(gpt_s.obj)
+  200024CC 00000000 .text   gpt_enable	(gpt_s.obj)
+  200024DC 00000000 .text   gpt_incap_config	(gpt_s.obj)
+  20002564 00000038 .text   gpio_port_get_pin_state	(gpio_c.obj)
+  2000259C 0000026C .text   gpio_port_init	(gpio_c.obj)
+  20002808 00000058 .text   gpio_port_set_pin_state	(gpio_c.obj)
+  20002860 00000004 .text   TrapHandler_printf	(exceptions_c.obj)
+  20002864 00000200 .text   mcf_exception_handler	(exceptions_c.obj)
+  20002A64 00000020 .text   asm_exception_handler	(exceptions_c.obj)
+  20002A84 00000008 .text   mcf5xxx_wr_vbr	(exceptions_c.obj)
+  20002A8C 00000062 .text   initialize_exceptions	(exceptions_c.obj)
+  20002AEE 0000002C .text   dtim0_busy_delay_ms	(dtim_c.obj)
+  20002B1A 00000068 .text   dtim0_busy_delay_us	(dtim_c.obj)
+  20002B82 00000086 .text   dtim0_init	(dtim_c.obj)
+  20002C08 00000078 .text   adc_chan_init	(adc_c.obj)
+  20002C80 00000022 .text   adc_get_result	(adc_c.obj)
+  20002CA2 00000060 .text   adc_init	(adc_c.obj)
+  20002D02 00000024 .text   adc_start_scanning	(adc_c.obj)
+  20002D26 00000020 .text   pll_init	(TWR-MCF5225X_sysinit_c.obj)
+  20002D46 00000022 .text   scm_init	(TWR-MCF5225X_sysinit_c.obj)
+  20002D68 0000003E .text   __initialize_hardware	(TWR-MCF5225X_sysinit_c.obj)
+  20002DA6 0000001C .text   __call_static_initializers	(librt.a cf_staticinitia)
+  20002DC4 00000598 .text   @DummyFn5	(fp_coldfire.a dmul.o         )
+  20002DC4 00000000 .text   _d_mul	(fp_coldfire.a dmul.o         )
+  20002DC4 00000598 .text   .text	(fp_coldfire.a dmul.o         )
+  2000335C 00000056 .text   @DummyFn6	(fp_coldfire.a dterminals.o   )
+  2000335C 00000000 .text   _fp_d_rounding	(fp_coldfire.a dterminals.o   )
+  2000335C 00000056 .text   .text	(fp_coldfire.a dterminals.o   )
+  20003384 00000000 .text   _fp_d_underflow	(fp_coldfire.a dterminals.o   )
+  20003398 00000000 .text   _fp_d_overflow	(fp_coldfire.a dterminals.o   )
+  200033B4 0000008E .text   @DummyFn8	(fp_coldfire.a dtoi.o         )
+  200033B4 00000000 .text   _d_dtoi	(fp_coldfire.a dtoi.o         )
+  200033B4 0000008E .text   .text	(fp_coldfire.a dtoi.o         )
+  20003444 00000136 .text   @DummyFn22	(fp_coldfire.a int_to_d.o     )
+  20003444 00000136 .text   .text	(fp_coldfire.a int_to_d.o     )
+  20003444 00000000 .text   _d_utod	(fp_coldfire.a int_to_d.o     )
+  2000348A 00000000 .text   _d_itod	(fp_coldfire.a int_to_d.o     )
+  200034A6 00000000 .text   _d_ulltod	(fp_coldfire.a int_to_d.o     )
+  20003538 00000000 .text   _d_lltod	(fp_coldfire.a int_to_d.o     )
+#>2000357C          ___ROM_AT (linker command file)
+#>2000357C          ___DATA_ROM (linker command file)
+
+# .data
+#>20005000          ___DATA_RAM (linker command file)
+#>20005000          __exception_table_start__ (linker command file)
+# Exception index
+  20005000 00000000         Exception Table Index	()
+#>20005000          __exception_table_end__ (linker command file)
+#>20005000          ___sinit__ (linker command file)
+# Linker generated symbols
+  20005000 00000004         static initializer	(linker generated)
+#>20005004          __START_DATA (linker command file)
+#>20005004          __END_DATA (linker command file)
+#>20005004          __START_SDATA (linker command file)
+#>20005004          __END_SDATA (linker command file)
+#>20005004          ___DATA_END (linker command file)
+#>20005004          __SDA_BASE (linker command file)
+
+# .bss
+#>20005004          ___BSS_START (linker command file)
+#>20005004          __START_SBSS (linker command file)
+#>20005004          __END_SBSS (linker command file)
+#>20005004          __START_BSS (linker command file)
+  20005004 00000004 .bss    g_pb1_callback	(uc_pushb_c.obj)
+  20005008 00000004 .bss    g_pb2_callback	(uc_pushb_c.obj)
+  2000500C 00000004 .bss    g_uart_callback	(uart_c.obj)
+  20005010 00000004 .bss    g_timer0_callback	(pit_c.obj)
+  20005014 00000004 .bss    count	(main_c.obj)
+  20005018 00000004 .bss    xfer_end	(main_c.obj)
+  2000501C 00000004 .bss    LENGTH	(main_c.obj)
+  20005020 00000001 .bss    TRANSFER_STATUS	(main_c.obj)
+  20005021 00000001 .bss    PLAYBACK	(main_c.obj)
+  20005022 00000001 .bss    MODE	(main_c.obj)
+  20005024 00000240 .bss    CURRENT_SONG	(main_c.obj)
+  20005264 00000400 .bss    DATA	(main_c.obj)
+#>20005664          __END_BSS (linker command file)
+#>20005664          ___BSS_END (linker command file)
+
+# .custom
+#>20005664          ___HEAP_START (linker command file)
+#>20005664          ___heap_addr (linker command file)
+#>20005A64          ___HEAP_END (linker command file)
+#>20005A64          ___SP_END (linker command file)
+#>20006264          ___SP_INIT (linker command file)
+#>20000000          ___VECTOR_RAM (linker command file)
+#>20006264          __SP_INIT (linker command file)
+#>20005A64          ___mem_limit (linker command file)
+#>00000010          ___stack_safety (linker command file)
+#>20003580          _romp_at (linker command file)
+
+# .romp
+#>20003580          __S_romp (linker command file)
+
+
+# Memory map:
+  v_addr   p_addr   size     name
+  20000000 20000000 00000000 .vectorram vectorram
+  20000500 20000500 00000000 .code      code
+  20000500 20000500 00000400 .vectors   code
+  20000900 20000900 00002C7C .text      code
+  20005000 20005000 00000000 .userram   userram
+  20005000 2000357C 00000004 .data      userram
+  20005004 20005004 00000660 .bss       userram
+  20005664 20005664 00000000 .custom    userram
+  20005664 20003580 00000018 .romp      userram
+
+# Link start time: Fri Nov 22 01:42:06 2013
+# Link end time: Fri Nov 22 01:42:06 2013
